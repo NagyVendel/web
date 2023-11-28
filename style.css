@@ -1,0 +1,29 @@
+.button {
+    cursor: pointer;
+    text-align: center;
+    color: bisque;
+    font: bold  ;
+    font-size: larger;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.button1 {
+    background-color: coral;
+    color: black;
+    border: 4px black;
+}
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.header1 {
+    text-align: center;
+    padding: 20px;
+    font: bold;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
