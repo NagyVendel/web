@@ -62,13 +62,15 @@
 .kollazscucc {
     width: 500px;
     text-align: right;
-    float: right;
     color: #8ca6ed;
 }
 .imgkollazs {
     width: 150px;
+    float: right;
+
 }
 .tableindex {
     margin: auto;
     display: block;
+
 }
