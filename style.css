@@ -1,29 +1,69 @@
-.button {
+.header {
+    text-align: center;
+    text-shadow: 2px;
+    background: linear-gradient(180deg,#0246ff, #0e1627) no-repeat;
+    height: 100px;
+}
+.p1 {
+    color: #b9c1da  ;
+}
+.bodymain {
+    background: linear-gradient(#253663, #1542a5 ) no-repeat center fixed;
+    background-size: cover;
+}
+.hrmain {
+    border: #8ca6ed solid 6px;
+    border-radius: 2px;
+}
+.buttonmain1 {
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #b9c1da;
+    transition-duration: 0.7s;
+    padding: 0cm;
+    margin: 0px;
+}
+.buttonmain2:hover {
     cursor: pointer;
-    text-align: center;
-    color: bisque;
-    font: bold  ;
-    font-size: larger;
-    border-radius: 10px;
-    transition-duration: 0.5s;
+    background-color: #06242e;
+    color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+}
+.navmain {
+    background-color: dimgrey;
+}
+.activeindex {
+    background-color: #06242e;
+    color: #b9c1da;
+    cursor: grab;
+    padding: 0px;
+    margin: 0px;
+}
+.div1 {
+    border: rgba(3, 14, 48, 0.507) solid 4px;
+    background-color: rgb(1, 8, 26);
+}
+.tdszoveg {
+    width: 600px;
+    border: navy solid 4px;
     padding: 10px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(165, 226, 226);
+}
+.tdsemmi {
     width: 200px;
-
 }
-
-.button1 {
-    background-color: coral;
-    color: black;
-    border: 4px black;
+.tdkollazs {
+    text-align: right;
+    float: right;
+    color: #8ca6ed;
 }
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-.header1 {
-    text-align: center;
-    padding: 20px;
-    font: bold;
-    font-size: xx-large;
-    font-family: 'Times New Roman', Times, serif;
+.imgkollazs {
+    width: 150px;
 }

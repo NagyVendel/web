@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NagyVeendel</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="header1">
-        Nagy Vendel weboldala
+<body class="bodymain">
+    <header class="header">
+        <H1>Nagy Veendel oldala</H1>
+        <p class="p1">:D</p>
+        <hr class="hrmain">
     </header>
-    <hr style="color: black; border: 5px solid; border-radius: 4px;">
-    <nav>
-        <button class="button button1" onclick="window.location.href='index.html';">Főoldal</button>
-        <button class="button button1" onclick="window.location.href='orarend.html';">Órarend</button>
-        <button class="button button1" onclick="window.location.href='lista.html';">Lista</button>
-        <button class="button button1" onclick="window.location.href='keplink';">Képlink</button>
-        <button class="button button1" onclick="window.location.href='urlap.html';">Űrlap</button>
+    <br>
+    <nav class="navmain1">
+        <div class="div1">
+            <button class="activeindex buttonmain1" onclick="window.location.href='index.html';">Főoldal</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='orarend.html';">Órarend</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='lista.html';">Lista</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='keplink';">Képlink</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='urlap.html';">Űrlap</button>
+        </div>
     </nav>
-    <section>
-        <table>
-            <tr>
-                <td style="width: 500px;">
-                 <p> <a href="https://www.lipsum.com" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Sed sit amet fermentum leo. Aliquam ornare gravida
+    <table>
+        <tr>
+            <td class="tdszoveg">
+                <a href="https://www.lipsum.com" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Sed sit amet fermentum leo. Aliquam ornare gravida
                 laoreet. Praesent consectetur, sapien non posuere accumsan, orci ligula fringilla elit, in dignissim est justo
                 eget metus. Vestibulum vitae eleifend diam. Suspendisse eleifend elit ut elit iaculis accumsan. Praesent
                 pulvinar quam eget nibh commodo, quis condimentum nunc varius. Aliquam vitae magna lectus. Morbi nec pulvinar
@@ -59,20 +62,18 @@
                 dignissim ante, non tempus ante purus et arcu. Sed placerat velit sed ultrices congue. Cras tincidunt imperdiet
                 libero eu. Etiam lobortis, ipsum non malesuada euismod, nisl quam faucibus nisl, sed lobortis ligula
                 nibh at ipsum.</p>
-                </td>
-                <td style="text-align: right;">
-                    <h1>Nagy Vendel</h1>
-                    <h2>Nagy Vendel</h2>
-                    <h3>Nagy Vendel</h3>
-                    <h4>Nagy Vendel</h4>
-                    <h5>Nagy Vendel</h5>
-                    <h6>Nagy Vendel</h6>
-                    <img src="kep/kollazs.png" style="width: 20%; border: black 5px solid; border-radius: 3px;">
-                </td>
-            </tr>
-        </table>
-    </section>
- 
-
+            </td>
+            <td class="tdsemmi">&nbsp;</td>
+            <td class="tdkollazs">
+                <h1>Nagy Vendel</h1>
+                <h2>Nagy Vendel</h2>
+                <h3>Nagy Vendel</h3>
+                <h4>Nagy Vendel</h4>
+                <h5>Nagy Vendel</h5>
+                <h6>Nagy Vendel</h6>
+                <img src="kep/kollazs.png" class="imgkollazs">
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
