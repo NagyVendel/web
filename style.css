@@ -59,11 +59,16 @@
 .tdsemmi {
     width: 200px;
 }
-.tdkollazs {
+.kollazscucc {
+    width: 500px;
     text-align: right;
     float: right;
     color: #8ca6ed;
 }
 .imgkollazs {
     width: 150px;
+}
+.tableindex {
+    margin: auto;
+    display: block;
 }
