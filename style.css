@@ -73,3 +73,8 @@
     margin: auto;
     display: block;
 }
+.tableora {
+    background: linear-gradient(#edfffb, #e6e6e6);
+    font-family: fantasy;
+    color: #253663;
+}
