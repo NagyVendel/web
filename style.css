@@ -84,16 +84,16 @@
     padding: 5px;
     color: #edfffb;
 }
-.evszakkepek {
+.div3 {
     width: 200px;
     height: 100px;
     transition: 3s;
     float: left;
 }
-.evszakkep {
+.evszakkepek {
     border: #fcba03 solid 4px;
     border-radius: 4px;
 }
-evszakkepek:hover {
+.div3:hover {
     width: 700px;
 }
