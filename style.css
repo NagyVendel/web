@@ -92,6 +92,7 @@
     margin: auto;
     margin-top: 50px;
     margin-right: 20px;
+    clear: both;
 }
 .evszakkepek {
     border: #fcba03 solid 4px;
