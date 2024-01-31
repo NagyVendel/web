@@ -84,3 +84,8 @@
     padding: 5px;
     color: #edfffb;
 }
+.evszakkepek {
+    border: #fcba03 solid 4px;
+    border-radius: 4px;
+    transition: 3s;
+}
