@@ -93,6 +93,8 @@
     border: #fcba03 solid 4px;
     border-radius: 4px;
     transition: 3s;  
-    width: 200px;
-    height: 100px;
+    width: 500px;
+}
+.evszakkep:hover {
+    width: 700px;
 }
