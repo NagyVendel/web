@@ -95,5 +95,5 @@
     border-radius: 4px;
 }
 .div3:hover {
-    width: 700px;
+    transform:  scale(1.2, 1.2);
 }
