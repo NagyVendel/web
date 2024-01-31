@@ -88,13 +88,12 @@
     width: 200px;
     height: 100px;
     transition: 3s;
+    float: left;
 }
 .evszakkep {
     border: #fcba03 solid 4px;
     border-radius: 4px;
-    transition: 3s;  
-    width: 500px;
 }
-.evszakkep:hover {
+.evszakkepek:hover {
     width: 700px;
 }
