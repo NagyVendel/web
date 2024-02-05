@@ -89,7 +89,7 @@
     text-align: center;
   }
 #div3 {
-    height: 150px;
+    height: 168px;
     width: 300px;
     transition: 3s;
     float: left;
@@ -99,7 +99,7 @@
     border: #fcba03 solid 4px;
     border-radius: 4px;
     width: 300px;
-    height: 168.750px;
+    height: 168px;
     display: block;
     margin: auto;
   }
