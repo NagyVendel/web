@@ -89,7 +89,8 @@
     text-align: center;
   }
 #div3 {
-    width: 25%;
+    height: 150px;
+    width: 300px;
     transition: 3s;
     float: left;
     margin: 20px;
@@ -97,7 +98,7 @@
 .evszakkepek {
     border: #fcba03 solid 4px;
     border-radius: 4px;
-    width: 25%;
+    width: 300px;
   }
 #div3:hover {
     transform:  scale(1.2, 1.2);
