@@ -80,14 +80,14 @@
 }
 .footer1 {
     text-align: center;
-    background-color: blueviolet;
-    padding: 5px;
-    color: #edfffb;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;  
-}
+    background-color: purple;
+    color: white;
+    text-align: center;
+  }
 #div3 {
     width: 25%;
     transition: 3s;
