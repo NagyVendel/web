@@ -97,7 +97,7 @@
 .evszakkepek {
     border: #fcba03 solid 4px;
     border-radius: 4px;
-    width: 300px;
+    width: 25%;
   }
 #div3:hover {
     transform:  scale(1.2, 1.2);
