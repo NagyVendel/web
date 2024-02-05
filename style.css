@@ -84,19 +84,21 @@
     padding: 5px;
     color: #edfffb;
 }
-.div3 {
-    width: 200px;
-    height: 100px;
+#div3 {
+    width: 300px;
     transition: 3s;
     float: left;
-    margin: auto;
-    margin-top: 50px;
-    margin-right: 20px;
-}
+    margin: 40px;
+  }
 .evszakkepek {
     border: #fcba03 solid 4px;
     border-radius: 4px;
-}
-.div3:hover {
+    width: 300px;
+  }
+#div3:hover {
     transform:  scale(1.2, 1.2);
-}
+  }
+.evszakP {
+    text-align: center;
+    font-size: larger;
+  }
