@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NagyVeendel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="kep/images.png">
+    <link rel="icon" type="image/x-icon" href="/kep/kollazs.png">
+</head>
+<body class="bodymain">
+    <header class="header">
+        <H1>Nagy Veendel oldala</H1>
+        <p class="p1">:D</p>
+        <hr class="hrmain">
+    </header>
+    <br>
+    <nav class="navmain1">
+        <div class="div1">
+            <button class="buttonmain2 buttonmain1" onclick="window.location.href='index.html';">Főoldal</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='orarend.html';">Órarend</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='lista.html';">Lista</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='keplink.html';">Képlink</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='urlap.html';">Űrlap</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='evszakok.html';">Évszakok</button>
+            <button class="buttonmain1 activeindex" onclick="window.location.href='kep.html';">Képcserélő</button>
+        </div>
+    </nav>
+    <script>
+        var image_koveto = 'white';
+      function changeimg() {
+          var image = document.getElementById('kep');
+          
+            if(image_koveto == 'white'){
+              image.src='kep/N.png';
+              image_koveto = 'blue';
+            }
+            else{
+              image.src='kep/V.png';
+              image_koveto='white';
+            }
+      }
+    </script>
+    <img src="kep/V.png" id="kep" onclick="changeimg()" style="display: block; margin: auto; width: 20%; padding-top: 50px;">
+
+    <footer class="footer1">
+        <p>nagyv1@kkszki.hu</p>
+        <p>Veendel</p>
+        <p>Hit_many</p>
+    </footer>
+</body>
+</html>
