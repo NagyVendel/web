@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(red, black);
+    color: whitesmoke;
+}
+.shakeoreo {
+    background-image: linear-gradient(black, wheat);
+    color: limegreen;
+}
+.shakepome {
+    background-image: linear-gradient(red, wheat);
+    color: blanchedalmond;
+}
+.shakestraw {
+    background-image: linear-gradient(red, green);
+    color: blanchedalmond;
+}
+.shakerasb {
+    background-image: linear-gradient(red, whitesmoke);
+    color: black;
+}
+.shakeblue {
+    background-image: linear-gradient(red, yellow);
+    color: black;
+}
+.navbar {
+    background-color: black;
+    color: azure;
+    border: 5px solid blanchedalmond;
+    font-size: xx-large;
+}
+.navbaritems{
+    color: azure;
+}
+.navbaritems:hover {
+    color: wheat;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.header {
+    color: cornsilk;
+    background-image: radial-gradient(black, red);
+}

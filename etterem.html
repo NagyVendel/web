@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="kep/images.png">
+    
+</head>
+<body class="bodymain">
+    <header class="header">
+        <H1>Nagy Veendel oldala</H1>
+        <p class="p1">:D</p>
+        <hr class="hrmain">
+    </header>
+    <br>
+    <nav class="navmain1">
+        <div class="div1">
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='index.html';">Főoldal</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='orarend.html';">Órarend</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='lista.html';">Lista</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='keplink.html';">Képlink</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='urlap.html';">Űrlap</button>
+            <button class="buttonmain2 buttonmain1" onclick="window.location.href='evszakok.html';">Évszakok</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='kep.html';">Képcserélő</button>
+            <button class="activeindex buttonmain2" onclick="window.location.href='etterem.html';">Képcserélő</button>
+        </div>
+    </nav>
+
+    <header class="text-center py-5 header">
+        <h1>DaryHUN Restaurant</h1>
+        <p>The Best in the west</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar">
+        <div class="container">
+            <a class="navbar-brand navbaritems" href="#">Mainpage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbaritems" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbaritems" href="#contact">Connections</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-content" class="container py-5">
+        <section id="home" class="text-center">
+            <img src="https://media.discordapp.net/attachments/1227950582719844464/1227950660222324838/IMG_3708.jpg?ex=662a452b&is=6617d02b&hm=978d85481f2d5901f182af7a7b3cd66eb800e13114053ba9e8cb769c9494f6cb&=&format=webp&width=337&height=600" class="img-fluid rounded" alt="DaryHUN Shakes">
+            <h2 >Szoszker van! Ez a DaryHUN Shaker!</h2>
+            <p>Itt kifinomult italok/shakek vásárolhatók.</p>
+        </section>
+
+        <section id="menu" class="mt-5">
+            <h2 class="text-center">Menu</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card shakeoreo">
+                        <div class="card-body">
+                            <h5 class="card-title">Oreós Shake</h5>
+                            <p class="card-text">Tej, Oreo, Csoki eszencia</p>
+                            <p class="card-text">Ár: 1500.HUF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card shakerasb">
+                        <div class="card-body">
+                            <h5 class="card-title">Málnás Shake</h5>
+                            <p class="card-text">Tej, Málna, Málna eszencia</p>
+                            <p class="card-text">Ár: 1000.HUF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card shakeblue">
+                        <div class="card-body">
+                            <h5 class="card-title">Áfonyás Shake</h5>
+                            <p class="card-text">Tej, Áfonya, Áfonya eszencia</p>
+                            <p class="card-text">Ár: 2000.HUF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="card shakepome">
+                        <div class="card-body">
+                            <h5 class="card-title">Gránátalmás Shake</h5>
+                            <p class="card-text">Tej, Gránátalma, Gránátalma eszencia</p>
+                            <p class="card-text">Ár: 2000.HUF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="card shakestraw">
+                        <div class="card-body">
+                            <h5 class="card-title">Epres Shake</h5>
+                            <p class="card-text">Tej, Eper, Eper eszencia</p>
+                            <p class="card-text">Ár: 2000.HUF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2 class="text-center">Connections</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Név</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail cím</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Üzenet</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Küldés</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class=" text-light text-center py-3">
+        <p>© 2024 DaryHUN</p>
+    </footer>
+
+</body>
+</html>
